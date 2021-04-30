@@ -1,4 +1,4 @@
-#Thu Apr 29 22:26:55 IST 2021
+#Fri Apr 30 16:56:56 IST 2021
 .datasources/ds-module.wk\:///naas-automation/Functional/PI7_Sprint1.tst\#0000000000\#0000000002/datasources=ds_837609403_1612432921526_1008208175
 .datasources/ds-module.wk\:///naas-automation/Functional/PI7_Sprint1.tst\#0000000000\#0000000002/ds_837609403_1612432921526_1008208175.first_row=0
 .datasources/ds-module.wk\:///naas-automation/Functional/PI7_Sprint1.tst\#0000000000\#0000000002/ds_837609403_1612432921526_1008208175.last_row=0
@@ -125,7 +125,7 @@
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000\#$$SetupIndex&&/ds_-442409197_1619619001025_866164940.table_rows_size=100
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000\#$$SetupIndex&&/ds_-442409197_1619619001025_866164940.type=Table
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000\#$$SetupIndex&&/ds_-442409197_1619619001025_866164940.use_all_rows=true
-.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/datasources=ds_-442409197_1619618757183_941331275\nds_-442409197_1619619001025_866164940\nds_-442409197_1619616585817_1383896250\nds_-442409197_1619714205640_1362377985
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/datasources=ds_-442409197_1619616585817_1383896250\nds_-442409197_1619618757183_941331275\nds_-442409197_1619619001025_866164940\nds_-442409197_1619714205640_1362377985
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619616585817_1383896250.first_row=1
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619616585817_1383896250.last_row=3
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619616585817_1383896250.name=Save Data For Testing
@@ -191,6 +191,8 @@
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_contain_header=true
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_content_0_0=W_UNI_INPUT
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_content_1_0=CO/KXFN/585454/LVLC
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_content_2_0=null
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_content_3_0=CO/KXFN/585306/LVLC
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_reset_mode=1
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writable_rows_size=100
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619618757183_941331275.writing_type=3
@@ -205,8 +207,11 @@
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619619001025_866164940.use_all_rows=true
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.closeconn=true
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.contain_header=true
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.csv_encoding=
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.csv_file=${project_loc\:naas-automation}/Regression/Port_CleanUp_Data.csv
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.first_row=0
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.first_row.internal=1
+.datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.last_row=0
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.last_row.internal=1
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.name=Save_Data_After_CleanUp
 .datasources/ds-module.wk\:///naas-automation/Regression/CB_Regression_Suite.tst\#0000000000/ds_-442409197_1619714205640_1362377985.quote="
