@@ -160,7 +160,7 @@ pipeline {
           sh script: '''
               #pwd 
 
-            OLD_PWD=$(pwd)
+            #OLD_PWD=$(pwd)
             cd ${WORKSPACE}
             #Below is an example of running JDBC driver DB call 
             \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}\" -import \"${WORKSPACE}/Sanity\"			
