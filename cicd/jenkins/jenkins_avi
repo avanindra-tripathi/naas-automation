@@ -174,9 +174,9 @@ pipeline {
 
             OLD_PWD=$(pwd)
             cd ${WORKSPACE}
-            #Below is an example of running JDBC driver DB call
+            #Below is an example of running JDBC driver DB call 
             \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -J-Dosgi.locking=none -data \"${WORKSPACE}\" -import \"${WORKSPACE}/Sanity\"
-            \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}\" -resource \"Sanity\ACTSanity.tst\" -chmod -R 744 xxx.tst -config \"soatest.user://Example Configuration\" -report \"${WORKSPACE}/SOATEST_REPORT.xml\" -localsettings \"C:/Users/AB99059/Desktop/LocalSetting/Localsettings.properties\" -appconsole \"stdout\"
+            \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}\" -resource \"Sanity/ACTSanity.tst\" -chmod -R 744 xxx.tst -config \"soatest.user://Example Configuration\" -report \"${WORKSPACE}/SOATEST_REPORT.xml\" -localsettings \"C:/Users/AB99059/Desktop/LocalSetting/Localsettings.properties\" -appconsole \"stdout\"
             
 			
             #Below is an example of running a REST API call
@@ -252,7 +252,7 @@ pipeline {
         //cleanWs()
         }
               always{
-         jslEmailNotification('avanindra.tripathi@lumen.com', 'christopher.tyler@lumen.com','Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}','**/ARCADE_REPORT.html',''' Build Url : ${BUILD_URL}''')
+         jslEmailNotification('avanindra.tripathi@lumen.com', 'Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}','**/ARCADE_REPORT.html',''' Build Url : ${BUILD_URL}''')
          
               }
 
