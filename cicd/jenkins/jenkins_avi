@@ -125,9 +125,7 @@ pipeline {
   */
 
 
-  agent {
-        any
-  }
+  agent {any}
 
 
     options {
@@ -146,9 +144,7 @@ pipeline {
   /*
   https://www.jenkins.io/doc/book/pipeline/syntax/#triggers
   */
-    triggers {
-        pollSCM ('* * * * *')
-    }
+    triggers {pollSCM ('* * * * *')}
 //Run ARCADE SOAtest tst files or projects
     stages {
       //Running test
