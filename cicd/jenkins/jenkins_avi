@@ -157,11 +157,11 @@ pipeline {
           println "Workspace is : ${env.WORKSPACE}"
 
 
-          sh script: '''
+          bat '''
               #pwd 
 
             #OLD_PWD=$(pwd)
-            cd ${WORKSPACE}
+            #cd ${WORKSPACE}
             #Below is an example of running JDBC driver DB call 
             \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}\" -import \"${WORKSPACE}/Sanity\"			
             \"C:/Program Files/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}\" -resource \"Sanity/ACTSanity.tst\" -chmod -R 744 xxx.tst -config \"soatest.user://Example Configuration\" -report \"%WORKSPACE%/SOATEST_REPORT.xml\" -localsettings \"C:/Users/AB99059/Desktop/LocalSetting/Localsettings.properties\" -appconsole \"stdout\"
@@ -172,7 +172,7 @@ pipeline {
           #\"/soatest/parasoft/soatest_virtualize/9.10/soatestcli\" -data \"${WORKSPACE}/testauto-arcade\" -resource \"TMS_Rest\" -config \"soatest.user://Example Configuration\" -report \"${OLD_PWD}/ARCADE_REPORT.xml\" -localsettings \"${WORKSPACE}/lib/Localsettings.properties\" -appconsole \"stdout\"
 
 
-            cd $OLD_PWD
+            #cd $OLD_PWD
            '''
           println 'C:/Program Files/parasoft/test/9.10_for_soatest_virtualize/configuration/*.log.'
         }
