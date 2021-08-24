@@ -10,7 +10,7 @@
   Try catch block will help with first connection failures.
 */
 
-
+/*
  try {
   library(
 identifier: 'jsl-jenkins-shared-library-local@master',
@@ -36,7 +36,7 @@ extensions: [[$class: 'CleanBeforeCheckout']]
 ]
 )
 ) _
-} 
+} */
 pipeline {
     environment {
     /* Credentials:
@@ -125,7 +125,7 @@ pipeline {
   */
 
 
-  agent {any}
+	agent { any }
 
 
     options {
