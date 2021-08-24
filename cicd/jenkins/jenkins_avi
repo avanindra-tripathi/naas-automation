@@ -126,15 +126,7 @@ pipeline {
 
 
   agent {
-        dockerfile {
-          filename 'Dockerfile'
-
-
-          dir 'cicd/docker'
-
-
-          label 'Docker-enabled'
-        }
+        any
   }
 
 
@@ -155,7 +147,7 @@ pipeline {
   https://www.jenkins.io/doc/book/pipeline/syntax/#triggers
   */
     triggers {
-        issueCommentTrigger('.*test this please.*')
+        pollSCM ('* * * * *')
     }
 //Run ARCADE SOAtest tst files or projects
     stages {
