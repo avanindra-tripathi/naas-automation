@@ -215,8 +215,7 @@ pipeline {
             //jslJiraXrayResultImport('junit', 'generatedJUnitFiles/*/*/*.xml', 'This execution is automatically created when importing execution results from jenkins', 'ARCADE', 'XIS', 'XIS-13379', 'Test1')
             
           //With parms below 
-            jslJiraXrayResultImport('junit', 'generatedJUnitFiles/*/*/*.xml', 'This execution is automatically created 
-			when importing execution results from jenkins', '${TestTool}', '${Project}', '${TestPlan}', '${XrayEnvironment}')
+            jslJiraXrayResultImport('junit', 'generatedJUnitFiles/*/*/*.xml', 'This execution is automatically created when importing execution results from jenkins', '${TestTool}', '${Project}', '${TestPlan}', '${XrayEnvironment}')
           }
            
         }
