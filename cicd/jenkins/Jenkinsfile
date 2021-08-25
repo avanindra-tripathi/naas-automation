@@ -104,7 +104,7 @@ pipeline {
   } //stages
 
 
-    post {
+   /*  post {
     /*
     https://www.jenkins.io/doc/book/pipeline/syntax/#post
     Always post somewhere the watermark:
@@ -113,29 +113,29 @@ pipeline {
     */
 
 
-        success {
+        //success {
       /* Contract Validation Gate */
-      println ("This is for success")
+      //println ("This is for success")
       //jslNotification('success')
         //cleanWs()
-        }
-        failure {
+        //}
+        //failure {
       /* Contract Validation Gate */
-      println("This is for failure")
+      //println("This is for failure")
       //jslNotification('failure')
         //cleanWs()
-        }
-        unstable {
+        //}
+        //unstable {
       /* Contract Validation Gate */
-      println("This is for unstable")
+      //println("This is for unstable")
       //jslNotification('unstable')
         //cleanWs()
-        }
-              always{
-         jslEmailNotification('avanindra.tripathi@lumen.com', 'Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}','**/ARCADE_REPORT.html',''' Build Url : ${BUILD_URL}''')
+        //}
+              //always{
+         //jslEmailNotification('avanindra.tripathi@lumen.com', 'Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}','**/ARCADE_REPORT.html',''' Build Url : ${BUILD_URL}''')
          
-              }
+             // }
 
 
-  } //post
+  //}*/ //post
 } //Pipeline
