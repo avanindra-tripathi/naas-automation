@@ -210,7 +210,7 @@ pipeline {
 			//cleanWs()
 		}
 		always {
-			jslEmailNotification('avanindra.tripathi@lumen.com', 'Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}', '**/ARCADE_REPORT.html', '' ' Build Url : ${BUILD_URL}' '')
+			jslEmailNotification('avanindra.tripathi@lumen.com', 'Job Name:${JOB_NAME} BuildNo:${BUILD_NUMBER} Status:${BUILD_STATUS}', '**/ARCADE_REPORT.html', 'Build Url : ${BUILD_URL}')
 
 		}
 
