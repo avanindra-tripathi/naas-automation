@@ -55,13 +55,13 @@ pipeline {
 					println "Will test in ${params.MAL}"
 					println "Workspace is : ${env.WORKSPACE}"
 
-					bat '' '
+					bat '''
 
 					            "C:/Program Files/Parasoft/SOAtest/9.10/soatestcli" -J-Dosgi.locking=none -data "%WORKSPACE%" -import "%WORKSPACE%/Sanity"
 								"C:/Program Files/Parasoft/SOAtest/9.10/soatestcli" -J-Dosgi.locking=none -data "%WORKSPACE%" -resource "Sanity/ACTSanity.tst" -chmod -R 744 xxx.tst -config "soatest.user://Example Configuration" -report "%WORKSPACE%/SOATEST_REPORT.xml" -localsettings "C:/Users/AB99059/Desktop/LocalSetting/Localsettings.properties" -appconsole "stdout"
 
 
-					           ' ''
+					           '''
 					println 'C:/Program Files/parasoft/test/9.10_for_soatest_virtualize/configuration/*.log.'
 				}
 			}
